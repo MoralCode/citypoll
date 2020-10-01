@@ -336,7 +336,7 @@ h1,h2,h3,h4,h5,h6 {
   .hero-body-text-container {
     margin-left: 0;
     margin-right: 0;
-    flex: 0;
+    flex: 1;
     display: flex;
     flex-direction: column;
   }
@@ -352,7 +352,7 @@ h1,h2,h3,h4,h5,h6 {
   .hero-body-image-container {
     margin: 0;
     padding: 0;
-    flex:0;
+    flex:1;
     margin-bottom: 20px;
     align-items: center;
     align-self: center;
