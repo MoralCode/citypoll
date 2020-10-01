@@ -1,11 +1,11 @@
 @font-face {
-font-family: "CircularStd";
+font-family: "CircularStd-Book";
 src: url('fonts/CircularStd-Book.ttf') format('truetype');
-font-weight: lighter;
-font-style: normal;
+/* font-weight: normal;
+font-style: normal; */
 }
 
-@font-face {
+/* @font-face {
   font-family: "CircularStd";
   src: url('fonts/CircularStd-Medium.ttf') format('truetype');
   font-weight: normal;
@@ -24,13 +24,13 @@ font-style: normal;
   src: url('fonts/CircularStd-Black.ttf') format('truetype');
   font-weight: bolder;
   font-style: normal;
-}
+} */
 
 html, body {
   margin:0;
   padding:0;
   width:100%;
-  font-family: 'CircularStd', Arial, sans-serif;
+  font-family: 'CircularStd-Book', Arial, sans-serif;
   /* font-weight:  */
 }
 
