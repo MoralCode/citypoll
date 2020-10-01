@@ -185,7 +185,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .features-body-text {
   margin: 0;
-  margin-top: 4px;
+  margin-top: 12px;
   padding: 0;
 }
 
@@ -359,7 +359,7 @@ h1,h2,h3,h4,h5,h6 {
   }
 
   .hero-body-image {
-    max-height: 30vh;
+    max-height: 25vh;
     max-width: 100%;
     display: block;
   }
@@ -378,7 +378,7 @@ h1,h2,h3,h4,h5,h6 {
   .experience-body-text-container {
     margin-left: 0;
     margin-right: 0;
-    flex: 0;
+    flex: 1;
     display: flex;
     flex-direction: column;
   }
@@ -392,9 +392,9 @@ h1,h2,h3,h4,h5,h6 {
   .experience-body-image-container {
     margin: 0;
     padding: 0;
-    flex:0;
+    flex:1;
     margin-bottom: 20px;
-    align-items: center;
+    align-items: flex-end;
     align-self: center;
   }
 
@@ -418,14 +418,14 @@ h1,h2,h3,h4,h5,h6 {
   .features-body-text {
     text-align: center;
     margin: 0;
-    margin-top: 4px;
+    margin-top: 15px;
   }
 
   .features-body-text-container {
     margin-left: 0;
     margin-right: 0;
-    flex: 0;
-    display: flex;
+    flex: 1;
+    display:flex;
     flex-direction: column;
   }
 
@@ -438,15 +438,14 @@ h1,h2,h3,h4,h5,h6 {
   .features-body-image-container {
     margin: 0;
     padding: 0;
-    flex:0;
-    height: 100vh;
-    margin-bottom: 40px;
-    align-items: center;
+    flex:2;
+    margin-bottom: 20px;
+    align-items: flex-end;
     align-self: center;
   }
 
   .features-body-text {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 
   .features-body-image {
@@ -470,6 +469,8 @@ h1,h2,h3,h4,h5,h6 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
   }
 
   .contact-body-text-container {
